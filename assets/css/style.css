@@ -1,0 +1,259 @@
+/*Generel Css*/
+body{
+    background-color: #d7d0e49c;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    color: #222fb9;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+
+}
+.login-wrapper .btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.login-wrapper .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.1rem;
+}
+.menu-full{
+    background-color: #43bfa3bf;
+    padding: 15px 0;
+}
+/*login page css Start Here*/
+.login-wrapper{
+    margin: 5% auto;
+    background: #66d8be52;
+    padding: 3% 0%;
+    border-radius: 15px;
+}
+.login-img img{
+    border-radius: 50%;
+    width: 70%;
+}
+.member-login{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 0 0 5%;
+    font-size: 20px;
+}
+.member-login-submit{
+    border: 1px solid #222fb9;
+    background-color: #222fb9;
+    color: #fff;
+}
+.member-login-submit:hover{
+    background-color: #1a248e;
+    border-color: #182183;
+    color: #fff;
+}
+.forget-pass a{
+    font-size: 14px;
+    padding-top: 2px;
+
+}
+.create-account {
+    font-size: 16px;
+    padding-top: 20px;
+
+}
+
+
+/*Registration page css  Here*/
+
+/*Dashboard Css here*/
+.singleRoom{
+    border-bottom: 2px solid blue;
+    padding-bottom: 30px;
+}
+
+
+.userImage img{
+    width: 100%;
+    border: 5px solid #222fb9;
+    height: 450px;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .userImage img{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 4%;
+    }
+}
+@media only screen and (max-width: 960px) and (min-width: 600px)  {
+    .userImage img{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 4%;
+    }
+}
+
+/*Menu css here*/
+.menuLink{
+    background: #222fb9;
+    border-radius: 30px;
+    border: 1px solid #222fb9;
+    padding: 7px 15px !important;;
+    color: #fff !important;
+    margin-right: 10px;
+    position: relative;
+}
+.menuLink:hover{
+    background: red;
+    border: 1px solid red;
+}
+.menuLink span{
+    position: absolute;
+    right: -15px;
+    top: -20px;
+    border: 2px solid #222fb9;
+    border-radius: 50%;
+    padding: 3px 3px 3px 3px;
+    font-size: 15px;
+    z-index: 99999;
+    color: red;
+    background-color: #222fb9;
+}
+
+.singleInvitation{
+    display: block;
+    border: 1px solid #222fb9;
+    margin: 8px;
+    text-align: center;
+    width: 400px;
+}
+.invitation-group{
+    border: 1px solid #222fb9;
+    padding: 5px 0px;
+    margin: 5px 0 ;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.menu-notification{
+    padding: 5px 12px !important;
+}
+.custom-btn-common {
+    background-color: #222fb9;
+    border-radius: 30px;
+    padding: 5px 16px;
+}
+.custom-btn-danger{
+    border-radius: 30px;
+    padding: 5px 16px;
+    background-color: red;
+    border: 1px solid red;
+}
+ul li a, .custom-btn-common,.custom-btn-danger {
+    transition: background-color 0.5s ease;
+
+
+}
+ul li a:hover, .custom-btn-common:hover{
+    background-color: #43bfa3bf;
+    border: 1px solid #43bfa3bf;
+    color:#000;
+
+}
+.custom-btn-danger:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #000;
+}
+.user-name{
+    border: 1px solid #43bfa3bf;
+    text-align: center;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+.online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 12px;
+    right: 30px;
+    border: 1.5px solid white;
+}
+.room-name{
+    border: 1px solid #43bfa3bf;
+    text-align: center;
+    padding: 15px 10px;
+    font-weight: bold;
+    background-color: #43bfa3bf;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.room-permision{
+    margin-top: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*scrollbar css here*/
+.scrollbar
+{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.force-overflow
+{
+    min-height: 450px;
+}
+.scrollbar-2
+{
+    height: 680px;
+    overflow-y: scroll;
+}
+
+.force-overflow-2
+{
+    min-height: 50px;
+}
+
+
+/*
+ *  STYLE 7
+ */
+
+#style-7::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-7::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122,153,217)),
+    color-stop(0.72, rgb(73,125,189)),
+    color-stop(0.86, rgb(28,58,148)));
+}
